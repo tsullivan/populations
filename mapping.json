@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "number_of_replicas": 0,
+    "number_of_shards": 2
+  },
+  "mappings": {
+    "doc": {
+      "properties": {
+        "country": {
+          "type": "keyword",
+          "ignore_above": 256,
+          "fields": {
+            "text": {
+              "type": "text"
+            }
+          }
+        },
+        "population": {
+          "type": "integer"
+        },
+        "collection_date": {
+          "type": "date"
+        }
+      }
+    }
+  }
+}

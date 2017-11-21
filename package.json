@@ -1,0 +1,20 @@
+{
+  "name": "populations",
+  "version": "1.0.0",
+  "description": "Create a bulk index format for Elasticsearch containing countries and their populations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Sullivan",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.19.2",
+    "tsv": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
